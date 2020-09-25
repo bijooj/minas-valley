@@ -1,3 +1,0 @@
-# empreendendo-ideias
-
-coe coe
