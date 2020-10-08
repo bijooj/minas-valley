@@ -26,7 +26,7 @@ Este diretório armazena o código fonte do projeto e adota uma hierarquia
 básica de projetos Web simples, que utilizam as tecnologias HTML, CSS e
 JavaScript:
  
-- O diretório `Front-end` armazena os arquivos HTLM do projeto
+- O diretório `Front-end` armazena os arquivos HTML do projeto
 - O diretório `Back-end` armazena os arquivos PHP do projeto
 - O diretório `scripts` armazena os arquivos JavaScripts do projeto
 - O diretório `styles` é utilizado para os arquivos CSS
