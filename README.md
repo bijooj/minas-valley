@@ -6,7 +6,7 @@ https://minasvalley.netlify.app
 
 Este projeto adota o seguinte gitflow:
 
-
+![Image of our GITFLOW](https://github.com/bijooj/minas-valley/blob/master/img/gitflow.PNG)
 
 # Estrutura de Diretórios
 
