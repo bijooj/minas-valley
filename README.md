@@ -2,9 +2,15 @@
 
 https://minasvalley.netlify.app
 
+# GITFLOW
+
+Este projeto adota o seguinte gitflow:
+
+
+
 # Estrutura de Diretórios
 
-Este _template_ adota a seguinte estrutura de diretórios:
+Este projeto adota a seguinte estrutura de diretórios:
 
 - `img`
 - `vid`
