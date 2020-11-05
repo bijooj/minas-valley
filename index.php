@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <title>MINAS VALLEY</title>
@@ -8,6 +12,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style>
 
 body, html {
@@ -26,39 +33,72 @@ body, html {
 }
 
 </style>
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  
+  <div class="w3-display-middle w3-center">
+      <img class="w3-image" src="img/logo/2.png">
+  </div>
+
+</header>
+
 <body>
 
-    <div class="w3-top">
-        <div class="w3-row w3-large w3-light-grey">
-          <div class="w3-col s3">
-            <img class="w3-image" src="img/logo/6.png" width="200" height="100" style="padding-top: 4px; padding-left: 5px;">
-          </div>
-          <div class="w3-col s3">
-            <a href="#plans" class="w3-button w3-block">Plans</a>
-          </div>
-          <div class="w3-col s3">
-            <a href="#about" class="w3-button w3-block">About</a>
-          </div>
-          <div class="w3-col s3">
-            <a href="#contact" class="w3-button w3-block">Contact</a>
-          </div>
-        </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="https://minasvalley.netlify.app/"><img src="img/logo/2.png" width="150" height="26" alt="Minas Valley"></a>
       </div>
-  
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.php">Home</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="#redes">Nossas redes</a></li>
+        </ul>
+        <form class="navbar-form navbar-left" action="/action_page.php">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form> 
+        <ul class="nav navbar-nav navbar-right">
 
-      <header class="bgimg w3-display-container w3-grayscale-min" id="home">
-        <div class="w3-display-middle w3-center">
-            <img class="w3-image" src="img/logo/1.png">
-        </div>
-      </header>
+        <?php
+
+            if(isset($_SESSION["usu_id"])){
+
+              echo "<li><a href='src/front-end/perfil.php'><span class='glyphicon glyphicon-user'></span> Perfil</a></li>";
+              echo "<li><a href='src/back-end/logout.php'><span class='glyphicon glyphicon-user'></span> Logout</a></li>";
+            }else{
+
+              echo "<li><a href='src/front-end/signup.php'><span class='glyphicon glyphicon-user'></span> Cadastre-se</a></li>";
+              echo "<li><a href='src/front-end/login.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
+            }
+
+        ?>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
 <div class="w3-content w3-padding" style="max-width:1564px">
 
     <div class="w3-row-padding" id="about">
-        <div class="w3-col l4 12">
-          <h3>Descubra as mais promissoaras Startups do Brasil e conecte-se a elas.</h3>
-          <h6>A plataforma que veio para unir Startups, Colaboradores e Investidores tudo em um só lugar. Mergulhe neste novo mar de experiência conosco.</h6>
-          <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h6>
+        <div class="w3-col l4 12"><br><br><br>
+          <h1>Descubra as mais promissoaras Startups do Brasil e conecte-se a elas.</h1><br>
+          <h4>A plataforma que veio para unir Startups, Colaboradores e Investidores tudo em um só lugar. Mergulhe neste novo mar de experiência conosco.</h4>
+          <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h4>
         </div>
         <div class="w3-col l8 12">
           <img src="img/ft1.jpg" class="w3-image" style="width:100%;">
@@ -68,6 +108,7 @@ body, html {
 
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Startups em Alta</h3>
+    <a href="https://app.netlify.com/sites/minasvalley/overview">Ver mais>>></a>
   </div>
 
   <div class="w3-row-padding">
@@ -190,7 +231,7 @@ body, html {
       <h3>Case</h3>
       <p class="w3-opacity">Startup de Pré aceleração de startups</p>
       <p>A case vem com uma ideia inovadora para o ramo de startups. Com sua ideia ja encantou diversos investidores e já está cogitando ir para fora. Sua ideia inovadora faz com que novas startups recebam bem amais atenção que outras, saiba...</p>
-      <p><button class="w3-button w3-light-grey w3-block">Saiba mais</button></p>
+      <p><button href="src/front-end/index.php" class="w3-button w3-light-grey w3-block">Saiba mais</button></p>
     </div>
   </div>
   
@@ -198,7 +239,7 @@ body, html {
 
 
 
-<footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+<footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
     <h5>Nos siga em nossa redes sociais:</h5>
     <div class="w3-xlarge w3-padding-16">
       <i class="fa fa-facebook-official w3-hover-opacity"></i>
