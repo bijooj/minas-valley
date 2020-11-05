@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "", "minas_valley");
+$conn = mysqli_connect("us-cdbr-east-02.cleardb.com", "ba38318d6b6b2d", "9de311a3", "heroku_210452ebbd19449");
 
 if (!$conn) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;

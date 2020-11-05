@@ -105,7 +105,7 @@ function criarUsuario($conn, $nome, $usuario, $email, $senha){
 
     mysqli_stmt_close($stmt);
 
-    header("location: ../../index.php?error=nenhum");
+    header("location: login.php?sucssess=usuariocriado");
     exit();
 }
 

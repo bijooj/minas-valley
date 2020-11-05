@@ -41,6 +41,13 @@
 						echo "<p>Dados errados, tente novamente.</P>";
 					}
 				}
+
+				if(isset($_GET["sucssess"])){
+					if($_GET["sucssess"] == "usuariocriado"){
+
+						echo "<p>Usuario criado, agora é só logar.</P>";
+					}
+				}
 			?>
 		</form>
 	</div>
