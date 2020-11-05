@@ -52,7 +52,7 @@ body, html {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="https://minasvalley.netlify.app/"><img src="img/logo/2.png" width="150" height="26" alt="Minas Valley"></a>
+        <a class="navbar-brand" href="https://minasvalley.herokuapp.com/"><img src="img/logo/2.png" width="150" height="26" alt="Minas Valley"></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
