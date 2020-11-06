@@ -79,7 +79,7 @@ body, html {
 
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-    <div class="w3-row-padding" id="about" align="center">
+    <div class="w3-row-padding" id="about" align:center>
         <div class="w3-col l4 12""><br><br><br>
           <h1>Nu Pagamentos S.A.</h1><br>
           <h4>É possível
@@ -92,11 +92,11 @@ body, html {
           
           Por isso, não temos pegadinhas, enrolação ou letras miúdas.</h4>
         </div>
+
         <div class="w3-col l8 12"><br><br><br>
-          <img src="../../img/projects/Nubank/Cartao.png" class="w3-image" style="width:40%;">
+          <img src="../../img/Projects/Nubank/Cartao.png" class="w3-image" style="width:40%;">
         </div>
     </div>
-
 
   <div class="w3-container w3-padding-32" id="Descricao">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Descrição</h3>
@@ -140,7 +140,7 @@ body, html {
       <i class="fa fa-twitter w3-hover-opacity"></i>
       <i class="fa fa-linkedin w3-hover-opacity"></i>
     </div>
-  </footer>
+</footer>
 
 </body>
 </html>
