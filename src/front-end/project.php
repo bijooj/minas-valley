@@ -125,9 +125,21 @@ body, html {
           O público-alvo da fintech é muito jovem. Aproximadamente 70% dos usuários da Nubank têm menos de 36 anos. Assim, as gerações Y e Z centralizam as atenções da empresa, visto que  possuem maior interação com o ambiente digital do que outras faixas etárias.</h4>
         </div>
 
-  <div class="w3-container w3-padding-32" id="Comentarios">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Comentários</h3>
-  </div>
+        <div id="HCB_comment_box">
+          <a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...
+          </div>
+          <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+          <script type="text/javascript" id="hcb"> /<!--/ 
+                if(!window.hcb_user)
+                {
+                  hcb_user={};
+                } (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";
+                s.setAttribute("type","text/javascript");
+                s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24PfJXtBb2GUqCgQSc1SBuV0"+"&opts=16862&num=10&ts=1604624493992");
+                if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
+                })(); 
+          </script>
+        </div>
 
 
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
