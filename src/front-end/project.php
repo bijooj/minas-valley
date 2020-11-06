@@ -78,23 +78,8 @@ body, html {
 
 
 <div class="w3-content w3-padding" style="max-width:1564px">
-
-    <div class="w3-row-padding" id="about" align:center>
-        <div class="w3-col l4 12""><br><br><br>
-          <h1>Nu Pagamentos S.A.</h1><br>
-          <h4>É possível
-
-          No Brasil, são cobradas as tarifas e os juros mais altos do mundo pelos piores serviços bancários. E é neste cenário que o Nubank surgiu para resolver a vida financeira das pessoas com transparência, segurança e simplicidade.<br>
-          
-          Desde o dia 1, o Nubank mostra que é possível fazer a diferença. É possível tratar as pessoas como humanos, não números, e oferecer um serviço justo, descomplicado e transparente.<br>
-          
-          No fim das contas, o que nós queremos é que todas as pessoas possam reinventar suas vidas financeiras<br>
-          
-          Por isso, não temos pegadinhas, enrolação ou letras miúdas.</h4>
-        </div>
-
-        <div class="w3-col l8 12"><br><br><br>
-          <img src="../../img/Projects/Nubank/Cartao.png" class="w3-image" style="width:40%;">
+        <div class="w3-col" align="center"><br><br><br>
+          <img src="../../img/Projects/Nubank/Nu.png" class="w3-image" style="width:10%;">
         </div>
     </div>
 
