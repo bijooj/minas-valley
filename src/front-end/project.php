@@ -13,6 +13,8 @@ session_start();
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../styles/avaliacao.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style>
@@ -93,10 +95,35 @@ body, html {
           Por isso, não temos pegadinhas, enrolação ou letras miúdas.</h4>
         </div>
 
+        
+
         <div class="w3-col l8 12"><br><br><br>
           <img src="../../img/Projects/Nubank/Cartao.png" class="w3-image" style="width:40%;">
         </div>
     </div>
+
+    <h1>Avalie</h1>
+		<form method="POST" action="project.php" enctype="multipart/form-data">
+			<div class="estrelas">
+				<input type="radio" id="vazio" name="estrela" value="" checked>
+				
+				<label for="estrela_um"><i class="fa"></i></label>
+				<input type="radio" id="estrela_um" name="estrela" value="1">
+				
+				<label for="estrela_dois"><i class="fa"></i></label>
+				<input type="radio" id="estrela_dois" name="estrela" value="2">
+				
+				<label for="estrela_tres"><i class="fa"></i></label>
+				<input type="radio" id="estrela_tres" name="estrela" value="3">
+				
+				<label for="estrela_quatro"><i class="fa"></i></label>
+				<input type="radio" id="estrela_quatro" name="estrela" value="4">
+				
+				<label for="estrela_cinco"><i class="fa"></i></label>
+				<input type="radio" id="estrela_cinco" name="estrela" value="5"><br><br>
+								
+			</div>
+		</form>
 
   <div class="w3-container w3-padding-32" id="Descricao">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Descrição</h3>
