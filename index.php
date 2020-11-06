@@ -115,7 +115,7 @@ body, html {
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Nubank</div>
-        <img src="img/logs/nu.png" alt="House" style="width:100%">
+        <a href='src/front-end/project.php'><img src="img/logs/nu.png" alt="House" style="width:100%"></a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
