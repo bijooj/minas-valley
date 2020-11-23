@@ -22,7 +22,7 @@ function dale (){
         let pesquisa = dados[Object.keys(dados)[i]];
 
         texto = texto + `
-        <i onclick="location.href = 'http://localhost/minas-valley/src/front-end/project.php'" />${pesquisa}</i>
+        <a onclick="location.href = 'http://localhost/minas-valley/src/front-end/project.php'" />${pesquisa}</a>
         `;
     };
 
