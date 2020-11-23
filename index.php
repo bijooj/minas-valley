@@ -77,7 +77,7 @@ body, html {
             if(isset($_SESSION["usu_id"])){
 
               echo "<li><a href='src/front-end/perfil.php'><span class='glyphicon glyphicon-user'></span> Perfil</a></li>";
-              echo "<li><a href='src/back-end/logout.php'><span class='glyphicon glyphicon-user'></span> Logout</a></li>";
+              echo "<li><a href='src/back-end/logout.php'><span class='glyphicon glyphicon-off'></span> Logout</a></li>";
             }else{
 
               echo "<li><a href='src/front-end/signup.php'><span class='glyphicon glyphicon-user'></span> Cadastre-se</a></li>";

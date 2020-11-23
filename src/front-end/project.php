@@ -15,6 +15,7 @@ session_start();
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../styles/avaliacao.css">
+<link rel="stylesheet" type="text/css" href="../styles/like.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style>
@@ -43,7 +44,7 @@ body, html {
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.php">Home</a></li>
+          <li class="active"><a href="../../index.php">Home</a></li>
           <li><a href="#about">Sobre nós</a></li>
           <li><a href="#redes">Nossas redes</a></li>
         </ul>
@@ -63,12 +64,12 @@ body, html {
 
             if(isset($_SESSION["usu_id"])){
 
-              echo "<li><a href='src/front-end/perfil.php'><span class='glyphicon glyphicon-user'></span> Perfil</a></li>";
-              echo "<li><a href='src/back-end/logout.php'><span class='glyphicon glyphicon-user'></span> Logout</a></li>";
+              echo "<li><a href='perfil.php'><span class='glyphicon glyphicon-user'></span> Perfil</a></li>";
+              echo "<li><a href='../back-end/logout.php'><span class='glyphicon glyphicon-off'></span> Logout</a></li>";
             }else{
 
-              echo "<li><a href='src/front-end/signup.php'><span class='glyphicon glyphicon-user'></span> Cadastre-se</a></li>";
-              echo "<li><a href='src/front-end/login.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
+              echo "<li><a href='signup.php'><span class='glyphicon glyphicon-user'></span> Cadastre-se</a></li>";
+              echo "<li><a href='login.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
             }
 
         ?>
@@ -84,7 +85,7 @@ body, html {
           <img src="../../img/Projects/Nubank/Nu.png" class="w3-image" style="width:10%;">
         </div>
     </div>
-
+<br>
     <h1>Avalie</h1>
 		<form method="POST" action="project.php" enctype="multipart/form-data">
 			<div class="estrelas">
@@ -103,10 +104,16 @@ body, html {
 				<input type="radio" id="estrela_quatro" name="estrela" value="4">
 				
 				<label for="estrela_cinco"><i class="fa"></i></label>
-				<input type="radio" id="estrela_cinco" name="estrela" value="5"><br><br>
-								
+        <input type="radio" id="estrela_cinco" name="estrela" value="5"><br><br>
+        
+                
 			</div>
-		</form>
+    </form>
+    
+    <input type="hidden" id="fav" value="nubank"></input>
+    <button id="btnfav" name="btnfav" class="like-button"></button>
+    
+    
 
   <div class="w3-container w3-padding-32" id="Descricao">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Descrição</h3>
@@ -166,3 +173,5 @@ body, html {
 
 </body>
 </html>
+
+<script src="../scripts/like.js"></script>
