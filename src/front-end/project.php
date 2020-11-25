@@ -111,8 +111,7 @@ session_start();
         <div class="w3-white w3-text-grey w3-card-4">
             <div class="w3-container">
                 <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-link fa-fw w3-margin-right w3-xxlarge"></i>Links</h2><hr>
-                  <a href="https://www.Nubank.com.br/">Website</a></p>
-                <br>
+                  <a href="https://www.Nubank.com.br/">Website</a></p><br>
             </div>
         </div><br>
 
@@ -121,7 +120,7 @@ session_start();
             <div class="project-space-comments">
                 <div> 
                 <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-inbox fa-fw w3-margin-right w3-xxlarge"></i>Avalie</h2><hr>
-                    <h5><br>Nome:</h5>
+                    <h5>Nome:</h5>
                     <input type="text" id="nome" />
                 </div>
         
