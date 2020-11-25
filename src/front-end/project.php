@@ -71,14 +71,7 @@ session_start();
     </div>
   </nav>
 
-
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-
-    <!-- Identification Column -->
+  <!-- Identification Column -->
     <div class="project-head">
         <img src="../../img/Projects/Nubank/Nu.png" style="width:8%">
 
@@ -87,52 +80,95 @@ session_start();
         -->
     </div><br>
 
-    <!-- First Left Column -->
-    <div class="w3-white w3-text-grey w3-card-4" style="max-width:800px">
-        <div class="w3-container">
-            <br>
-                <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i>A história do Nubank começou com uma péssima experiência que David Vélez, CEO e fundador, teve com os serviços financeiros no Brasil. ... Junto da brasileira Cristina Junqueira e do americano Edward Wible, Vélez fundou em 2013 o Nubank, hoje o maior banco digital independente do mundo.</p>
-            <br>
-        </div>
-    </div><br>
 
-    <!-- Second Left Column -->
-    <div class="w3-white w3-text-grey w3-card-4" style="max-width:800px">
-        <div class="w3-container">
-            <br>
-              <p><i class="w3-margin-right w3-large"></i>O Nubank é uma empresa que usa a tecnologia e design para devolver às pessoas o controle sobre a sua vida financeira.</p>
-              <p>Criamos produtos simples e transparentes, que respeitam e dão liberdade aos nossos clientes – e temos times trabalhando dia e noite para atendê-los da melhor forma possível.</p>
-              <p>Nosso primeiro lançamento foi um cartão de crédito gratuito sem taxas ou anuidades – o roxinho. Ele é um cartão de crédito internacional, com a bandeira MasterCard®.</p>
-              <p>Além dele, o Nubank lançou também um programa de benefícios de cartão de crédito com pontos que nunca expiram – o Nubank Rewards – e uma conta digital e gratuita, com transferências ilimitadas, na qual seu dinheiro rende mais do que na poupança – a Conta do Nubank, NuConta.</p>
-              <p>Hoje, o Nubank já possui mais de 20 milhões de clientes – 12 milhões são usuários do cartão Nubank.</p>
-            <br>
-        </div>
-    </div><br>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-    <!-- Third Left Column -->
-    <div class="w3-white w3-text-grey w3-card-4" style="max-width:800px">
-        <div class="project-space-comments">
-            <div> 
-                <label>Avalie</label>
-                <h5><br>Nome:</h5>
-                <input type="text" id="nome" />
-            </div>
-        
-            <p> </p>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-white w3-text-grey">
       
-            <h5><br>Comentários:</h5>
-            <textarea rows="4" cols="50" name="comentarios" form="ussform"></textarea>
-            <h5>
-                <br><input type="button" value="Publicar Avaliação">
-            </h5>
+        <!-- First Left Column -->
+        <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-container">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-bar-chart fa-fw w3-margin-right w3-xxlarge"></i>Descrição</h2><hr>
+
+                <p><i class="w3-margin-right w3-large"></i>A história do Nubank começou com uma péssima experiência que David Vélez, CEO e fundador, teve com os serviços financeiros no Brasil. ... Junto da brasileira Cristina Junqueira e do americano Edward Wible, Vélez fundou em 2013 o Nubank, hoje o maior banco digital independente do mundo.</p>
+                <p><i class="w3-margin-right w3-large"></i>O Nubank é uma empresa que usa a tecnologia e design para devolver às pessoas o controle sobre a sua vida financeira.</p>
+                  <p><i class="w3-margin-right w3-large"></i>Criamos produtos simples e transparentes, que respeitam e dão liberdade aos nossos clientes – e temos times trabalhando dia e noite para atendê-los da melhor forma possível.</p>
+                  <p><i class="w3-margin-right w3-large"></i>Nosso primeiro lançamento foi um cartão de crédito gratuito sem taxas ou anuidades – o roxinho. Ele é um cartão de crédito internacional, com a bandeira MasterCard®.</p>
+                  <p><i class="w3-margin-right w3-large"></i>Além dele, o Nubank lançou também um programa de benefícios de cartão de crédito com pontos que nunca expiram – o Nubank Rewards – e uma conta digital e gratuita, com transferências ilimitadas, na qual seu dinheiro rende mais do que na poupança – a Conta do Nubank, NuConta.</p>
+                  <p><i class="w3-margin-right w3-large"></i>Hoje, o Nubank já possui mais de 20 milhões de clientes – 12 milhões são usuários do cartão Nubank.</p>
+                <br>
+            </div>
+        </div><br>
+
+        <!-- Second Left Column -->
+        <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-container">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-link fa-fw w3-margin-right w3-xxlarge"></i>Links</h2><hr>
+                  <a href="https://www.Nubank.com.br/">Website</a></p>
+                <br>
+            </div>
+        </div><br>
+
+        <!-- Third Left Column -->
+        <div class="w3-white w3-text-grey w3-card-4">
+            <div class="project-space-comments">
+                <div> 
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-inbox fa-fw w3-margin-right w3-xxlarge"></i>Avalie</h2><hr>
+                    <h5><br>Nome:</h5>
+                    <input type="text" id="nome" />
+                </div>
+        
+                <p> </p>
+      
+                <h5><br>Comentários:</h5>
+                <textarea rows="4" cols="50" name="comentarios" form="ussform"></textarea>
+                <h5>
+                    <br><input type="button" value="Publicar Avaliação">
+                </h5>
+            </div>
+        </div><br>
+
+      <!-- End Class After Column -->
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-third">
+    
+      <div class="w3-container w3-white w3-margin-bottom">
+        <div class="project-space-img">
+            <img src="../../img/Projects/Nubank/Nu.png" style="width:40%">
+            <h2 class="w3-text-grey w3-padding-16">&nbsp;NUBANK</h2>
         </div>
-    </div><br>
+      </div>
+       
+      <div class="w3-container w3-white">
+       
+        <div class="w3-container"> <hr> </div>
+        <div class="w3-container"> <hr> </div>    
+        <div class="w3-container"> <hr> </div>
+        <div class="w3-container"> <hr> </div>
+        <div class="w3-container"> <hr> </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
     
   <!-- End Grid -->
   </div>
   
   <!-- End Page Container -->
 </div>
+
 
 
 
