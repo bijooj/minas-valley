@@ -1,0 +1,26 @@
+.project-space-img {
+    padding: 20px 20px 0px 20px;
+}
+
+.project-space-comments {
+    display: inline-block;
+    position: relative;
+    padding: 20px 20px 20px 20px;
+}
+
+.project-head {
+    display: block;
+    max-width: 1500px;
+}
+
+.container {
+    height: 100%;
+}
+
+.project-left {
+    float: left;
+}
+
+.project-right {
+    float: right;
+}

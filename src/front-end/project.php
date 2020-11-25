@@ -4,31 +4,23 @@ session_start();
 
 <!DOCTYPE html>
 <html>
-<title>Projeto</title>
+<title>PROJETO</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../styles/project.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="../styles/avaliacao.css">
-<link rel="stylesheet" type="text/css" href="../styles/like.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<style>
 
-body, html {
-  height: 100%;
-}
+<header>
+<br><br><br>
 
-.menu {
-  display: none;
-}
-
-</style>
+</header>
 
 <body>
 
@@ -80,79 +72,68 @@ body, html {
   </nav>
 
 
-<div class="w3-content w3-padding" style="max-width:1564px">
-        <div class="w3-col" align="center"><br><br><br>
-          <img src="../../img/Projects/Nubank/Nu.png" class="w3-image" style="width:10%;">
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Identification Column -->
+    <div class="project-head">
+        <img src="../../img/Projects/Nubank/Nu.png" style="width:8%">
+
+        <!-- NUBANK
+        <p>&nbsp;<a href="https://https://nubank.com.br/">NuBank</a></p>
+        -->
+    </div><br>
+
+    <!-- First Left Column -->
+    <div class="w3-white w3-text-grey w3-card-4" style="max-width:800px">
+        <div class="w3-container">
+            <br>
+                <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i>A história do Nubank começou com uma péssima experiência que David Vélez, CEO e fundador, teve com os serviços financeiros no Brasil. ... Junto da brasileira Cristina Junqueira e do americano Edward Wible, Vélez fundou em 2013 o Nubank, hoje o maior banco digital independente do mundo.</p>
+            <br>
         </div>
-    </div>
-<br>
-    <h1>Avalie</h1>
-		<form method="POST" action="project.php" enctype="multipart/form-data">
-			<div class="estrelas">
-				<input type="radio" id="vazio" name="estrela" value="" checked>
-				
-				<label for="estrela_um"><i class="fa"></i></label>
-				<input type="radio" id="estrela_um" name="estrela" value="1">
-				
-				<label for="estrela_dois"><i class="fa"></i></label>
-				<input type="radio" id="estrela_dois" name="estrela" value="2">
-				
-				<label for="estrela_tres"><i class="fa"></i></label>
-				<input type="radio" id="estrela_tres" name="estrela" value="3">
-				
-				<label for="estrela_quatro"><i class="fa"></i></label>
-				<input type="radio" id="estrela_quatro" name="estrela" value="4">
-				
-				<label for="estrela_cinco"><i class="fa"></i></label>
-        <input type="radio" id="estrela_cinco" name="estrela" value="5"><br><br>
+    </div><br>
+
+    <!-- Second Left Column -->
+    <div class="w3-white w3-text-grey w3-card-4" style="max-width:800px">
+        <div class="w3-container">
+            <br>
+              <p><i class="w3-margin-right w3-large"></i>O Nubank é uma empresa que usa a tecnologia e design para devolver às pessoas o controle sobre a sua vida financeira.</p>
+              <p>Criamos produtos simples e transparentes, que respeitam e dão liberdade aos nossos clientes – e temos times trabalhando dia e noite para atendê-los da melhor forma possível.</p>
+              <p>Nosso primeiro lançamento foi um cartão de crédito gratuito sem taxas ou anuidades – o roxinho. Ele é um cartão de crédito internacional, com a bandeira MasterCard®.</p>
+              <p>Além dele, o Nubank lançou também um programa de benefícios de cartão de crédito com pontos que nunca expiram – o Nubank Rewards – e uma conta digital e gratuita, com transferências ilimitadas, na qual seu dinheiro rende mais do que na poupança – a Conta do Nubank, NuConta.</p>
+              <p>Hoje, o Nubank já possui mais de 20 milhões de clientes – 12 milhões são usuários do cartão Nubank.</p>
+            <br>
+        </div>
+    </div><br>
+
+    <!-- Third Left Column -->
+    <div class="w3-white w3-text-grey w3-card-4" style="max-width:800px">
+        <div class="project-space-comments">
+            <div> 
+                <label>Avalie</label>
+                <h5><br>Nome:</h5>
+                <input type="text" id="nome" />
+            </div>
         
-                
-			</div>
-    </form>
+            <p> </p>
+      
+            <h5><br>Comentários:</h5>
+            <textarea rows="4" cols="50" name="comentarios" form="ussform"></textarea>
+            <h5>
+                <br><input type="button" value="Publicar Avaliação">
+            </h5>
+        </div>
+    </div><br>
     
-    <input type="hidden" id="fav" value="nubank"></input>
-    <button id="btnfav" name="btnfav" class="like-button"></button>
-    
-    
-
-  <div class="w3-container w3-padding-32" id="Descricao">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Descrição</h3>
+  <!-- End Grid -->
   </div>
+  
+  <!-- End Page Container -->
+</div>
 
-  <div style="text-align:center">
-          <h4>A fintech Nubank anunciou no começo de julho que atingiu a marca de 10 milhões de clientes no Brasil, entre possuidores de contas digitais e cartões de crédito.<br><br>
-          Fundada por David Vélez, Cristina Junqueira, Edward Wible em 2013, o Nubank já recebeu investimentos por cerca de US$ 420 milhões em sete rodadas. Graças a esse rápido crescimento, o valor de mercado aproximado da startup alcançou US$ 4 bilhões.<br><br>
-          Em 2019, a fintech iniciou sua expansão na América Latina, primeiro para o México, e, em junho também para a Argentina. Sempre neste ano, o Nubank foi eleito a empresa mais inovadora da América Latina pela revista “Fast Company”.<br><br>
-          O sucesso foi tamanho, que o Nubank chegou a ter uma lista de espera para clientes de até três meses de duração. Entretanto, no começo do mês, junto com o novo número de clientes, a empresa também anunciou que encerrou a lista de espera para a liberação dos serviços da conta digital. Desta forma, os novos clientes passaram a receber na hora o acesso à NuConta após a solicitação.<br><br>
-          Primeiros passos<br><br>
-          A criação do Nubank é ligada a forte vontade do colombiano David Vélez de criar sua própria fintech. Graduado na Universidade de Stanford, e com passagens em bancos de investimentos renomados, como Goldman Sachs e Morgan Stanley, Vélez, em conjunto com Cristina Junqueira e Edward Wible, fundou a startup em 2013.<br>
-          Na época, o escritório ficava localizado no bairro Brooklin em São Paulo. Logo ocorreu o lançamento do primeiro produto da startup: o cartão de crédito sem anuidade, com gerenciamento 100% digital por aplicativo em smartphones. Foi uma revolução para o mercado bancário brasileiro, altamente concentrado e com custos muito altos para os correntistas.<br><br>
-          Saiba mais – Nubank abre escritório na Argentina e continua expansão na AL<br><br>
-          O sucesso foi imediato, e pouco depois de um ano do lançamento foi necessário que a empresa se mudasse para um local maior: o escritório já não conseguiria abrigar os 300 funcionários. Foi assim que a fintech passou para a Avenida Brigadeiro Luis Antônio.<br><br>
-          Em 2016, sempre por causa da rápida expansão, o Nubank se mudou mais uma vez, passando no bairro de Pinheiros, e contando com mais de 1.500 colaboradores.<br><br>
-          Rápida ascensão<br>
-          Assim como o fundador, boa parte do quadro de funcionários do Nubank são estrangeiros. O banco tem colaboradores com mais de 25 nacionalidades, entre eles mexicanos, indianos, canadenses, australianos, americanos e holandeses. Além disso, segundo a própria empresa:<br><br>
-          cerca de 30% da equipe faz parte da comunidade LGBTQ;<br>
-          cerca de 40% são mulheres.<br>
-          Os fundadores da startup mantiveram cargos de liderança na empresa, e hoje ocupam respetivamente as posições de:<br><br>
-          David Vélez: CEO<br>
-          Edward Wible: CTO<br>
-          Cristina Junqueir: vice-presidenta da startup<br>
-          Em 2017, a fintech lançou seu programa de benefícios, o Nubank Rewards. No mesmo ano, também anunciou a NuConta, a conta digital atualmente utilizada por mais de 5,5 milhões de brasileiros<br><br>
-          O público-alvo da fintech é muito jovem. Aproximadamente 70% dos usuários da Nubank têm menos de 36 anos. Assim, as gerações Y e Z centralizam as atenções da empresa, visto que  possuem maior interação com o ambiente digital do que outras faixas etárias.</h4>
-        </div>
-
-       <div> 
-       <h5>Comentarios</h5>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" />
-        </div>
-        <p> </p>
-         <textarea rows="4" cols="50" name="comentarios" form="ussform" placeholder="Comentarios aqui"></textarea>
-         <h5>
-         <input type="button" value="enviar">
-         </h5>
-         </div>
 
 
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
@@ -165,7 +146,7 @@ body, html {
       <i class="fa fa-twitter w3-hover-opacity"></i>
       <i class="fa fa-linkedin w3-hover-opacity"></i>
     </div>
-</footer>
+  </footer>
 
 </body>
 </html>
