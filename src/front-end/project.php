@@ -5,15 +5,17 @@ session_start();
 <!DOCTYPE html>
 <html>
 <title>PROJETO</title>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../styles/project.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../styles/project.css">
+<link rel="stylesheet" type="text/css" href="../styles/avaliacao.css">
+<link rel="stylesheet" type="text/css" href="../styles/like.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -71,25 +73,54 @@ session_start();
     </div>
   </nav>
 
-  <!-- Identification Column -->
-    <div class="project-head">
-        <img src="../../img/Projects/Nubank/Nu.png" style="width:8%">
-
-        <!-- NUBANK
-        <p>&nbsp;<a href="https://https://nubank.com.br/">NuBank</a></p>
-        -->
-    </div><br>
-
-
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
+
+  <!-- Head Line -->
+        <div class="w3-white w3-text-grey">
+            <div class="w3-container">
+ 
+                <div style="float: left; width: 130px; height :170px;">
+                    <h2 class="w3-text-grey w3-padding-16"><img src="../../img/Projects/Nubank/Nu.png" style="width:100%"></h2>
+                </div>
+
+                <div class="project-space-head" style="float: left; width: 150px; height :170px;">
+                    <div class="project-name w3-text-grey w3-padding-16">NUBANK<br><div class="project-whatis">Startup</div></div>
+
+                        <div class="project-name2" form method="POST" action="project.php" enctype="multipart/form-data">
+			                <div class="estrelas">
+				                <input type="radio" id="vazio" name="estrela" value="" checked>
+				
+				                <label for="estrela_um"><i class="fa"></i></label>
+				                <input type="radio" id="estrela_um" name="estrela" value="1">
+				
+				                <label for="estrela_dois"><i class="fa"></i></label>
+				                <input type="radio" id="estrela_dois" name="estrela" value="2">
+				
+				                <label for="estrela_tres"><i class="fa"></i></label>
+				                <input type="radio" id="estrela_tres" name="estrela" value="3">
+				
+				                <label for="estrela_quatro"><i class="fa"></i></label>
+				                <input type="radio" id="estrela_quatro" name="estrela" value="4">
+				
+				                <label for="estrela_cinco"><i class="fa"></i></label>
+                                <input type="radio" id="estrela_cinco" name="estrela" value="5">
+                            </div>
+                        </div>
+                </div>
+
+                <div class="project-space-heart">
+                    <button id="btnfav" name="btnfav" class="like-button"></button>
+                </div>
+            </div>
+        </div>
   
     <!-- Left Column -->
     <div class="w3-twothird">
-    
+
       <div class="w3-white w3-text-grey">
       
         <!-- First Left Column -->
@@ -111,7 +142,7 @@ session_start();
         <div class="w3-white w3-text-grey w3-card-4">
             <div class="w3-container">
                 <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-link fa-fw w3-margin-right w3-xxlarge"></i>Links</h2><hr>
-                  <a href="https://www.Nubank.com.br/">Website</a></p><br>
+                  <a href="https://www.Nubank.com.br/">Nubank.com.br</a></p><br>
             </div>
         </div><br>
 
@@ -120,7 +151,30 @@ session_start();
             <div class="project-space-comments">
                 <div> 
                 <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-inbox fa-fw w3-margin-right w3-xxlarge"></i>Avalie</h2><hr>
-                    <h5>Nome:</h5>
+
+                <h5>Sua Avaliação:</h5>
+                <div class="project-name2" form method="POST" action="project.php" enctype="multipart/form-data">
+			        <div class="estrelas">
+				        <input type="radio" id="vazio" name="estrela" value="" checked>
+				
+				        <label for="estrela_um"><i class="fa"></i></label>
+				        <input type="radio" id="estrela_um" name="estrela" value="1">
+				
+				        <label for="estrela_dois"><i class="fa"></i></label>
+				        <input type="radio" id="estrela_dois" name="estrela" value="2">
+				
+				        <label for="estrela_tres"><i class="fa"></i></label>
+				        <input type="radio" id="estrela_tres" name="estrela" value="3">
+				
+				        <label for="estrela_quatro"><i class="fa"></i></label>
+				        <input type="radio" id="estrela_quatro" name="estrela" value="4">
+				
+				        <label for="estrela_cinco"><i class="fa"></i></label>
+                        <input type="radio" id="estrela_cinco" name="estrela" value="5">
+                    </div>
+                </div>
+
+                <h5>Nome:</h5>
                     <input type="text" id="nome" />
                 </div>
         
@@ -145,19 +199,18 @@ session_start();
     
       <div class="w3-container w3-white w3-margin-bottom">
         <div class="project-space-img">
-            <img src="../../img/Projects/Nubank/Nu.png" style="width:40%">
-            <h2 class="w3-text-grey w3-padding-16">&nbsp;NUBANK</h2>
+            <img src="../../img/Projects/Nubank/CartaoGabriela.png" style="width:90%">
         </div>
       </div>
-       
-      <div class="w3-container w3-white">
-       
-        <div class="w3-container"> <hr> </div>
-        <div class="w3-container"> <hr> </div>    
-        <div class="w3-container"> <hr> </div>
-        <div class="w3-container"> <hr> </div>
-        <div class="w3-container"> <hr> </div>
-      </div>
+
+    <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-container">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-users fa-fw w3-margin-right w3-xxlarge"></i>Contato</h2><hr>
+               <p>0800 608 6236</p>
+               <p>meajuda@nubank.com.br</p>
+               <p>Atendimento 24h</p>
+        </div>
+    </div><br>
 
     <!-- End Right Column -->
     </div>
