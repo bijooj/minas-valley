@@ -109,9 +109,9 @@ body, html {
         </div>
 
         <section class="galeria">
-            <img class="foto" src="/img/capa/Startup01Red.jpg">
-            <img class="foto" src="/img/capa/Startup02Red.jpg">
-            <img class="foto" src="/img/capa/Escritorio.jpg">
+            <img class="foto" src="img/capa/Startup01Red.jpg">
+            <img class="foto" src="img/capa/Startup02Red.jpg">
+            <img class="foto" src="img/capa/Escritorio.jpg">
         </section>
 
 
