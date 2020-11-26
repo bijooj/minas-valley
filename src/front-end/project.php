@@ -227,8 +227,7 @@ session_start();
   <!-- End Page Container -->
 </div>
 
-
-
+</div>
 
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
     <h5>Nos siga em nossa redes sociais:</h5>

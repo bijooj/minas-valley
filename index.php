@@ -123,25 +123,25 @@ body, html {
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Nubank</div>
-        <a href='src/front-end/project.php'><img src="img/logs/nu.png" alt="House" style="width:100%"></a>
+        <a href='src/front-end/project.php'><img src="img/logs/nubank01.png" alt="House" style="width:100%"></a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Pic Pay</div>
-        <img src="img/logs/pic.png" alt="House" style="width:100%">
+        <img src="img/logs/picpay01.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Vindi</div>
-        <img src="img/logs/vindi.jpg" alt="House" style="width:100%">
+        <img src="img/logs/vindi01.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Rubrik</div>
-        <img src="img/logs/rub.png" alt="House" style="width:100%">
+        <img src="img/logs/rubrik01.png" alt="House" style="width:100%">
       </div>
     </div>
   </div>
@@ -150,25 +150,25 @@ body, html {
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Slack</div>
-        <img src="img/logs/slack.png" alt="House" style="width:99%">
+        <img src="img/logs/slack02.png" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Stripe</div>
-        <img src="img/logs/stripe.png" alt="House" style="width:99%">
+        <div class="w3-display-topleft w3-black w3-padding">Loggi</div>
+        <img src="img/logs/loggi01.png" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Wework</div>
-        <img src="img/logs/wework.jpg" alt="House" style="width:99%">
+        <img src="img/logs/wework01.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">NIO</div>
-        <img src="img/logs/nio.png" alt="House" style="width:99%">
+        <img src="img/logs/nio01.png" alt="House" style="width:99%">
       </div>
     </div>
   </div>
@@ -244,8 +244,7 @@ body, html {
   </div>
   
 </div>
-
-
+</div>
 
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
     <h5>Nos siga em nossa redes sociais:</h5>
