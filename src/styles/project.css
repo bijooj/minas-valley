@@ -73,3 +73,7 @@
 .project-whatis {
     font: 20px arial, sans-serif;
 }
+
+.project-branca {
+    filter: brightness(100);
+}
