@@ -98,8 +98,8 @@ body, html {
 
     <div class="w3-row-padding" id="about">
         <div class="w3-col l4 12"><br>
-        <h2 class="index-tema w3-text-grey w3-padding-16">Descubra as mais promissoaras Startups do Brasil e conecte-se</h2><hr>
-          <h4 class="index-tema">Somos uma plataforma que veio para unir Startups, Colaboradores e Investidores tudo em um só lugar. Mergulhe neste novo mar de experiência conosco</h4><br>
+        <h2 class="index-tema w3-text-grey w3-padding-16">Descubra as mais promissoras Startups do Brasil e conecte-se</h2><hr>
+          <h4 class="index-tema">Somos a plataforma que veio para unir Startups, Colaboradores e Investidores tudo em um só lugar! <p>Mergulhe neste novo mar de experiência conosco</h4><br>
 
           <h2 class="index-tema-icons w3-text-grey w3-padding-16"><i class="fa fa-check-square-o fa-fw w3-margin-right w3-xxlarge"></i>Networking de projetos?</h2>
           <h2 class="index-tema-icons w3-text-grey w3-padding-16"><i class="fa fa-check-square-o fa-fw w3-margin-right w3-xxlarge"></i>Maiores Startups do Brasil?</h2>
@@ -123,13 +123,13 @@ body, html {
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Nubank</div>
-        <a href='src/front-end/project.php'><img src="img/logs/nubank01.png" alt="House" style="width:100%"></a>
+        <a href='src/front-end/project.php'><img src="img/logs/nubank06.png" alt="House" style="width:100%"></a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Pic Pay</div>
-        <img src="img/logs/picpay01.png" alt="House" style="width:100%">
+        <img src="img/logs/picpay02.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -214,32 +214,32 @@ body, html {
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="img/inv/geekie.png" style="width:100%">
-      <h3>Geekie</h3>
-      <p class="w3-opacity">Startup de Ensino</p>
-      <p>Fundada em 2011, a startup desenvolve soluções para ajudar instituiçoes de ensino no processo de criação de ações pedagógicas para cada aluno. Partindo da premissa que o processo...</p>
+      <img src="img/inv/binance.png" style="width:100%">
+      <h3>Binance</h3>
+      <p class="w3-opacity">Binance</p>
+      <p>A Binance é uma bolsa global de criptomoedas que fornece uma plataforma para a negociação de mais de 100 moedas criptográficas. Desde o início de 2018, a Binance é...</p>
       <p><button class="w3-button w3-light-grey w3-block">Saiba mais</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="img/inv/lifenroll.jpg" style="width:100%">
-      <h3>Life n' Roll</h3>
-      <p class="w3-opacity">Startup de Ensino</p>
-      <p>O primeiro ponto levantado pela Life n' Roll é que há 200 anos o ensino é o mesmo, o que leva a resultados desastrosos(40% dos alunos largam seus cursos de faculdade, por exemplo)...</p>
+      <img src="img/inv/generalAtlantic.png" style="width:100%">
+      <h3>General Atlantic</h3>
+      <p class="w3-opacity">General Atlantic</p>
+      <p>A General Atlantic é uma empresa americana de growth equity que fornece capital e suporte estratégico para empresas de crescimento global. GA está sediada em New York, New York...</p>
       <p><button class="w3-button w3-light-grey w3-block">Saiba mais</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="img/inv/app.png" style="width:100%">
-      <h3>App Prova</h3>
-      <p class="w3-opacity">Startup de Ensino</p>
-      <p>A startup foi criada em Belo Horizonte em 2012 e tem como objetivo auxiliar em um dos principais desafior da jornada educacional de uma pessoa: as provas. Por meio da plaaforma criada pela empresa, alunos conseguem se preparar para...</p>
+      <img src="img/inv/lactec.png" style="width:100%">
+      <h3>Lactec</h3>
+      <p class="w3-opacity">Lactec</p>
+      <p>Aqui, a inovação está presente em cada projeto, em cada serviço que oferecemos. Somos um dos maiores centros de ciência e tecnologia do país, referência em soluções inovadoras para o setor produtivo – empresas...</p>
       <p><button class="w3-button w3-light-grey w3-block">Saiba mais</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="img/inv/case.png" style="width:100%">
-      <h3>Case</h3>
-      <p class="w3-opacity">Startup de Pré aceleração de startups</p>
-      <p>A case vem com uma ideia inovadora para o ramo de startups. Com sua ideia ja encantou diversos investidores e já está cogitando ir para fora. Sua ideia inovadora faz com que novas startups recebam bem amais atenção que outras, saiba...</p>
-      <p><button href="src/front-end/index.php" class="w3-button w3-light-grey w3-block">Saiba mais</button></p>
+      <img src="img/inv/sequoia.png" style="width:100%">
+      <h3>Sequoia</h3>
+      <p class="w3-opacity">Sequoia</p>
+      <p>A Sequoia Capital é uma companhia americana focada em investimentos de capital de risco. Sua sede está localizada em Menlo Park, no Estado da Califórnia. O objetivo da Sequoia Capital é focar os seus...</p>
+      <p><button href="src/front-end/sequoia.php" class="w3-button w3-light-grey w3-block">Saiba mais</button></p>
     </div>
   </div>
   
