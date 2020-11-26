@@ -8,6 +8,8 @@ session_start();
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/src/styles/index.css">
+<link rel="stylesheet" type="text/css" href="/src/styles/carousel.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -95,20 +97,26 @@ body, html {
 <div class="w3-content w3-padding" style="max-width:1564px">
 
     <div class="w3-row-padding" id="about">
-        <div class="w3-col l4 12"><br><br><br>
-          <h1>Descubra as mais promissoaras Startups do Brasil e conecte-se a elas.</h1><br>
-          <h4>A plataforma que veio para unir Startups, Colaboradores e Investidores tudo em um só lugar. Mergulhe neste novo mar de experiência conosco.</h4>
-          <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h4>
+        <div class="w3-col l4 12"><br>
+        <h2 class="index-tema w3-text-grey w3-padding-16">Descubra as mais promissoaras Startups do Brasil e conecte-se</h2><hr>
+          <h4 class="index-tema">Somos uma plataforma que veio para unir Startups, Colaboradores e Investidores tudo em um só lugar. Mergulhe neste novo mar de experiência conosco</h4><br>
+
+          <h2 class="index-tema-icons w3-text-grey w3-padding-16"><i class="fa fa-check-square-o fa-fw w3-margin-right w3-xxlarge"></i>Networking de projetos?</h2>
+          <h2 class="index-tema-icons w3-text-grey w3-padding-16"><i class="fa fa-check-square-o fa-fw w3-margin-right w3-xxlarge"></i>Maiores Startups do Brasil?</h2>
+          <h2 class="index-tema-icons w3-text-grey w3-padding-16"><i class="fa fa-check-square-o fa-fw w3-margin-right w3-xxlarge"></i>Investidores mais agressivos do mercado?</h2>
+
+          <!-- <h4 class="index-tema3"><br><br><br><br><br>“Todo mundo começa forte. O sucesso vem para aqueles que têm um compromisso inabalável de continuar assim até o fim. ” –  Howard Schultz, CEO do Startbucks</h4> -->
         </div>
-        <div class="w3-col l8 12">
-          <img src="img/ft1.jpg" class="w3-image" style="width:100%;">
-        </div>
-    </div>
+
+        <section class="galeria">
+            <img class="foto" src="/img/capa/Startup01Red.jpg">
+            <img class="foto" src="/img/capa/Startup02Red.jpg">
+            <img class="foto" src="/img/capa/Escritorio.jpg">
+        </section>
 
 
-  <div class="w3-container w3-padding-32" id="projects">
+  <div class="w3-text-grey w3-padding-16" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Startups em Alta</h3>
-    <a href="https://app.netlify.com/sites/minasvalley/overview">Ver mais>>></a>
   </div>
 
   <div class="w3-row-padding">
@@ -165,7 +173,7 @@ body, html {
     </div>
   </div>
 
-  <div class="w3-container w3-padding-32" id="about">
+  <div class="w3-text-grey w3-padding-16" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Ideias em Destaque</h3>
   </div>
 
@@ -200,7 +208,7 @@ body, html {
     </div>
   </div>
 
-  <div class="w3-container w3-padding-32" id="about">
+  <div class="w3-text-grey w3-padding-16" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Popular entre os Investidores</h3>
   </div>
 
@@ -213,7 +221,7 @@ body, html {
       <p><button class="w3-button w3-light-grey w3-block">Saiba mais</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="img/inv/life.png" style="width:100%">
+      <img src="img/inv/lifenroll.jpg" style="width:100%">
       <h3>Life n' Roll</h3>
       <p class="w3-opacity">Startup de Ensino</p>
       <p>O primeiro ponto levantado pela Life n' Roll é que há 200 anos o ensino é o mesmo, o que leva a resultados desastrosos(40% dos alunos largam seus cursos de faculdade, por exemplo)...</p>
