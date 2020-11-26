@@ -180,19 +180,19 @@ session_start();
         
                 <p> </p>
       
-                <h5><br>Comentários:</h5>
+                
                 <textarea rows="4" cols="50" name="comentarios" form="ussform"></textarea>
                 <h5>
                     <br><input type="button" value="Publicar Avaliação">
                 </h5>
                 
           -->
-          <h1>Comentarios</h1>
-   
           <div id="formComentarios">
-          Nome: <input type="text" id="campoNome"><br>
-          Comentario: <br><textarea rows="4" cols="30"<input type="text" id="campoComentario"></textarea> <br>
-            <button id="btnIncluirComentario">Enviar</button></br>
+          <h5>Nome:</h5>
+          <input type="text" id="campoNome"/>
+          <h5><br>Comentário:</h5> 
+          <textarea rows="4" cols="50"<input type="text" id="campoComentario"></textarea> <br>
+            <button id="btnIncluirComentario">Enviar</button>
           <br>
 
           </div>
@@ -202,7 +202,7 @@ session_start();
 
           <script src="../scripts/comentario.js"></script>
             </div>
-        </div><br>
+        </div></br>
 
       <!-- End Class After Column -->
       </div><br>
