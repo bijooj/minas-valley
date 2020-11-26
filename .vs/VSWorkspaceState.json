@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img",
     "\\src",
     "\\src\\front-end"
   ],
-  "SelectedNode": "\\src\\front-end\\project.php",
+  "SelectedNode": "\\index.php",
   "PreviewInSolutionExplorer": false
 }
