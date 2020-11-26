@@ -173,7 +173,7 @@ session_start();
                         <input type="radio" id="estrela_cinco" name="estrela" value="5">
                     </div>
                 </div>
-
+<!-- caixa de comentarios 
                 <h5>Nome:</h5>
                     <input type="text" id="nome" />
                 </div>
@@ -185,6 +185,22 @@ session_start();
                 <h5>
                     <br><input type="button" value="Publicar Avaliação">
                 </h5>
+                
+          -->
+          <h1>Comentarios</h1>
+   
+          <div id="formComentarios">
+          Nome: <input type="text" id="campoNome"><br>
+          Comentario: <br><textarea rows="4" cols="30"<input type="text" id="campoComentario"></textarea> <br>
+            <button id="btnIncluirComentario">Enviar</button></br>
+          <br>
+
+          </div>
+
+          <button id="btnCarregaDados">Carregar Comentarios</button>
+          <div id="tela"></div>
+
+          <script src="../scripts/comentario.js"></script>
             </div>
         </div><br>
 
