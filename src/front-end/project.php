@@ -173,20 +173,36 @@ session_start();
                         <input type="radio" id="estrela_cinco" name="estrela" value="5">
                     </div>
                 </div>
-
+<!-- caixa de comentarios 
                 <h5>Nome:</h5>
                     <input type="text" id="nome" />
                 </div>
         
                 <p> </p>
       
-                <h5><br>Comentários:</h5>
+                
                 <textarea rows="4" cols="50" name="comentarios" form="ussform"></textarea>
                 <h5>
                     <br><input type="button" value="Publicar Avaliação">
                 </h5>
+                
+          -->
+          <div id="formComentarios">
+          <h5>Nome:</h5>
+          <input type="text" id="campoNome"/>
+          <h5><br>Comentário:</h5> 
+          <textarea rows="4" cols="50"<input type="text" id="campoComentario"></textarea> <br>
+            <button id="btnIncluirComentario">Enviar</button>
+          <br>
+
+          </div>
+
+          <button id="btnCarregaDados">Carregar Comentarios</button>
+          <div id="tela"></div>
+
+          <script src="../scripts/comentario.js"></script>
             </div>
-        </div><br>
+        </div></br>
 
       <!-- End Class After Column -->
       </div><br>
