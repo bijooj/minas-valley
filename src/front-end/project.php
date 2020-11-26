@@ -182,7 +182,7 @@ session_start();
                 <p> </p>
       
                 <h5><br>Comentários:</h5>
-                <textarea rows="4" cols="50" name="comentarios" type="text" id="campoComentario" form="ussform"></textarea>
+                <textarea rows="10" cols="90" name="comentarios" type="text" maxlength="300" style="resize: none;" class="project-textarea" id="campoComentario" form="ussform"></textarea>
                 
                 <h5>
                     <br><input id="btnIncluirComentario" type="button" value="Publicar Avaliação">
