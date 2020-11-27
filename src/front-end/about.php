@@ -147,5 +147,3 @@ session_start();
 
 </body>
 </html>
-
-<script src="../scripts/like.js"></script>
