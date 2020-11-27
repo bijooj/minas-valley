@@ -4,8 +4,7 @@ session_start();
 
 <!DOCTYPE html>
 <html>
-<title>MINAS VALLEY</title>
-<meta charset="UTF-8">
+<title>PROJETO</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="../../img/logo/favicon04.png">
@@ -14,6 +13,11 @@ session_start();
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../styles/project.css">
+<link rel="stylesheet" type="text/css" href="../styles/avaliacao.css">
+<link rel="stylesheet" type="text/css" href="../styles/like.css">
+<link rel="stylesheet" type="text/css" href="../styles/about.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -38,7 +42,7 @@ session_start();
         <ul class="nav navbar-nav">
           <li class="active"><a href="../../index.php">Home</a></li>
           <li><a href="#about">Sobre nós</a></li>
-          <li><a href="about.php">Sobre nós</a></li>
+          <li><a href="#redes">Nossas redes</a></li>
         </ul>
         <form class="navbar-form navbar-left" action="/action_page.php">
           <div class="input-group">
@@ -71,102 +75,52 @@ session_start();
     </div>
   </nav>
 
-
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
+
+        <!-- Head Line -->
+        <div class="w3-white w3-text-grey" style="margin: 0 0 30px 0">
+            <div class="w3-container">
+                <img class="w3-image about-align" src="../../img/logo/6.png">
+                <br>
+            </div>
+        </div>
   
     <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="../../img/perfil.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-white">
-            <h2>Zé Balero</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-        <br>
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i>Vagabundo</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large"></i>Belo Horizinte, MG</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large"></i>dale@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large"></i>4002-8922</p>
-          <hr>
+    <div class="w3-half">
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right"></i>Linguas</b></p>
+      <div class="w3-white w3-text-grey">
+      
+        <!-- First Left Column -->
+        <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-container">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-address-book-o fa-fw w3-margin-right w3-xxlarge"></i>Sobre Nós</h2><hr>
 
-          <p>Espanhol</p>
-          <div class="w3-light-grey">
-            <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: Intermediario</p>
-          </div>
+                <p><i class="w3-margin-right w3-large"></i>O nome San Pedro Valley surgiu como uma brincadeira e hoje é referência para empresas de base tecnológica de Belo Horizonte. A comunidade surgiu em 2011, durante encontros informais dos empreendedores das startups Beved, Deskmetrics, Everwrite e Hotmart.</p>
+                   <p>Hoje somos mais de 200 empresas de diversos setores, além de espaços de coworking, aceleradoras, investidores e interessados. Se você tem uma Startup em Belo Horizonte, ou um projeto que tenha sinergia com o nosso ecossistema, não deixe de se cadastrar.</p>
+                   <p>O objetivo é reunir as Startups de Belo Horizonte para juntos identificar oportunidades, necessidades e incentivos para este mercado, além de divulgar vagas e notícias.</p>
+                   <p>Contamos com sua participação!</p>
+                <br>
+            </div>
+        </div><br>
 
-          <p>Ingles</p>
-          <div class="w3-light-grey">
-          <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: Intermediario</p>
-          </div>
-          
-          <p>Japones</p>
-          <div class="w3-light-grey">
-           <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: Intermediario</p>
-          </div>
 
-          <br>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right"></i>Favoritos</b></p>
-          <div id="psqsalvas" class="w3-light-grey">
-          </div>
-          <br>
-        </div>
+      <!-- End Class After Column -->
       </div><br>
 
     <!-- End Left Column -->
     </div>
 
     <!-- Right Column -->
-    <div class="w3-twothird">
+    <div class="w3-half">
     
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Experiência de trabalho</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-round">Atual</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p><br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>cursosonline.com</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Lorem ipsum</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>cursosonline2.com</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Lorem ipsum</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>cursosonline3.com</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Lorem ipsum</p><br>
+      <div class="w3-container w3-white w3-margin-bottom">
+        <div class="project-space-img">
+            <img src="../../img/about/cidadeConectada.jpg" style="width:100%">
         </div>
       </div>
 
@@ -177,6 +131,8 @@ session_start();
   </div>
   
   <!-- End Page Container -->
+</div>
+
 </div>
 
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">

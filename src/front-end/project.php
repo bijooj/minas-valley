@@ -40,7 +40,7 @@ session_start();
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="../../index.php">Home</a></li>
-          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="about.php">Sobre nós</a></li>
           <li><a href="#redes">Nossas redes</a></li>
         </ul>
         <form class="navbar-form navbar-left" action="/action_page.php">
