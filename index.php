@@ -247,6 +247,23 @@ body, html {
 </div>
 </div>
 
+    <!-- Final Line -->
+        <div class="w3-white w3-text-grey" style="margin: 0 0 30px 0">
+            <div class="w3-container">
+                <div class="w3-text-grey w3-padding-16">
+                    <br><h3 class="w3-border-bottom"></h3>
+                    <div style="text-align: center">
+                        <br><h3 class="w3-border-black w3-padding-16" style="color: #000000;">Minas Valley é a comunidade de startups do Brasil
+                            <a<div><a href="src/front-end/signup.php"</a>
+                                <button class="btn btn-gray">FAZER CADASTRO</button>
+                            </div></a>
+                            <h5 style="color: #000000; margin: 0 0 0 360px;">Junte-se a nós e ajude a construir um ecossistema melhor</h5>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
     <h5>Nos siga em nossa redes sociais:</h5>
     <div class="w3-xlarge w3-padding-16">

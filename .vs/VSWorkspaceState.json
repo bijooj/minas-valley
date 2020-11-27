@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\front-end"
+    "\\src\\front-end",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\index.php",
+  "SelectedNode": "\\src\\styles\\index.css",
   "PreviewInSolutionExplorer": false
 }

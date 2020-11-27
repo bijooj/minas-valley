@@ -11,3 +11,46 @@
     text-align: left;
     font: 20px arial, sans-serif;
 }
+
+.index-fontPhraseFinal {
+    font: 16px arial, sans-serif;
+}
+
+.btn:focus, .btn::-moz-focus-inner {
+    outline: none;
+    border: none;
+}
+
+.btn {
+    margin: 0 0 0 100px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button {
+    font: 16px arial, sans-serif;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    /* flex para alinhar conteúdo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-gray {
+    background: #d9d9d9;
+    color: #000000;
+    box-shadow: 0 5px 0 #bebebe;
+}
+
+.btn-gray:hover {
+    background: #bebebe;
+    box-shadow: 0 5px 0 #929292;
+}
+
+.btn-gray:active {
+    top: 5px;
+    box-shadow: none;
+}
