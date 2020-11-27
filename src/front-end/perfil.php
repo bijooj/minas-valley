@@ -38,7 +38,7 @@ session_start();
         <ul class="nav navbar-nav">
           <li class="active"><a href="../../index.php">Home</a></li>
           <li><a href="about.php">Sobre nós</a></li>
-          <li><a href="../../index.php">Categorias</a></li>
+          <li><a href="category.php">Categorias</a></li>
         </ul>
         <form class="navbar-form navbar-left" action="/action_page.php">
           <div class="input-group">

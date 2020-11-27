@@ -61,14 +61,14 @@ body, html {
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.php">Home</a></li>
           <li><a href="src/front-end/about.php">Sobre nós</a></li>
-          <li><a href="../../index.php">Categorias</a></li>
+          <li><a href="src/front-end/category.php">Categorias</a></li>
         </ul>
         <form class="navbar-form navbar-left" action="/action_page.php">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Pesquisar">
             <div class="input-group-btn">
               <button class="btn btn-default" type="submit">
-                <i class="glyphicon glyphicon-search"></i>
+                <a class="glyphicon glyphicon-search"></a>
               </button>
             </div>
           </div>
@@ -175,7 +175,7 @@ body, html {
   </div>
 
   <div class="w3-text-grey w3-padding-16" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Ideias em Destaque</h3>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projetos em Destaque</h3>
   </div>
 
   <div class="w3-row-padding">
@@ -254,7 +254,7 @@ body, html {
                     <br><h3 class="w3-border-bottom"></h3>
                     <div style="text-align: center">
                         <br><h3 class="w3-border-black w3-padding-16" style="color: #000000;">Minas Valley é a maior comunidade de startups do Brasil
-                            <a<div><a href="src/front-end/signup.php"</a>
+                            <a <div <a href="src/front-end/signup.php">
                                 <button class="btn index-btn-gray" style="margin: 0 0 0 200px; width: 200px; height: 50px; font-family: arial; font-size: 14px; text-transform: uppercase; font-weight: 300; border: none; padding: 10px; cursor: pointer; display: inline-block; text-decoration: none;">FAZER CADASTRO</button>
                             </div></a>
                             <h5 style="color: #000000; margin: 0 0 0 270px;">Junte-se a nós e ajude a construir um ecossistema melhor</h5>
