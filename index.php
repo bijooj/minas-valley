@@ -115,9 +115,8 @@ body, html {
             <img class="foto" src="img/capa/Escritorio.jpg">
         </section>
 
-
   <div class="w3-text-grey w3-padding-16" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Startups em Alta</h3>
+    <br><h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Startups em Alta</h3>
   </div>
 
   <div class="w3-row-padding">
