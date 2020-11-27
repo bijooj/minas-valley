@@ -255,7 +255,7 @@ body, html {
                     <div style="text-align: center">
                         <br><h3 class="w3-border-black w3-padding-16" style="color: #000000;">Minas Valley é a maior comunidade de startups do Brasil
                             <a<div><a href="src/front-end/signup.php"</a>
-                                <button class="btn btn-gray">FAZER CADASTRO</button>
+                                <button class="btn index-btn-gray" style="margin: 0 0 0 200px; width: 200px; height: 50px; font-family: arial; font-size: 14px; text-transform: uppercase; font-weight: 300; border: none; padding: 10px; cursor: pointer; display: inline-block; text-decoration: none;">FAZER CADASTRO</button>
                             </div></a>
                             <h5 style="color: #000000; margin: 0 0 0 270px;">Junte-se a nós e ajude a construir um ecossistema melhor</h5>
                         </h3>
