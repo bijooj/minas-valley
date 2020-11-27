@@ -212,6 +212,8 @@ session_start();
     </div>
     </div>
   
+    <br>
+
   <!-- End Page Container -->
 
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
