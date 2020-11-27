@@ -4,7 +4,7 @@ session_start();
 
 <!DOCTYPE html>
 <html>
-<title>PROJETO</title>
+<title>Sobre</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="../../img/logo/favicon04.png">
