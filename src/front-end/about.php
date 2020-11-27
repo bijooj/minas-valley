@@ -46,7 +46,7 @@ session_start();
         </ul>
         <form class="navbar-form navbar-left" action="/action_page.php">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search">
+            <input type="text" class="form-control" placeholder="Pesquisar">
             <div class="input-group-btn">
               <button class="btn btn-default" type="submit">
                 <i class="glyphicon glyphicon-search"></i>
