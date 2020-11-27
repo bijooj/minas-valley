@@ -42,7 +42,7 @@ session_start();
         <ul class="nav navbar-nav">
           <li class="active"><a href="../../index.php">Home</a></li>
           <li><a href="#about">Sobre nós</a></li>
-          <li><a href="#redes">Nossas redes</a></li>
+          <li><a href="#redes">Categorias</a></li>
         </ul>
         <form class="navbar-form navbar-left" action="/action_page.php">
           <div class="input-group">
