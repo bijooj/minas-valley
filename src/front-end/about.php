@@ -99,15 +99,13 @@ session_start();
             <div class="w3-container">
                 <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-address-book-o fa-fw w3-margin-right w3-xxlarge"></i>Sobre Nós</h2><hr>
 
-                <p><i class="w3-margin-right w3-large"></i>O nome San Pedro Valley surgiu como uma brincadeira e hoje é referência para empresas de base tecnológica de Belo Horizonte. A comunidade surgiu em 2011, durante encontros informais dos empreendedores das startups Beved, Deskmetrics, Everwrite e Hotmart.</p>
-                   <p>Hoje somos mais de 200 empresas de diversos setores, além de espaços de coworking, aceleradoras, investidores e interessados. Se você tem uma Startup em Belo Horizonte, ou um projeto que tenha sinergia com o nosso ecossistema, não deixe de se cadastrar.</p>
-                   <p>O objetivo é reunir as Startups de Belo Horizonte para juntos identificar oportunidades, necessidades e incentivos para este mercado, além de divulgar vagas e notícias.</p>
+                <p><i class="w3-margin-right w3-large"></i>O nome Minas Valley surgiu como uma brincadeira e hoje é referência para empresas de base tecnológica do Brasil todo. A comunidade surgiu em 2020, durante encontros informais dos empreendedores de algumas das maiores startups brasileiras.</p>
+                   <p>Hoje somos mais de 200 empresas de diversos setores, além de espaços de coworking, aceleradoras, investidores e interessados. Se você tem uma Startup, ou um projeto que tenha sinergia com o nosso ecossistema, não deixe de se cadastrar.</p>
+                   <p>O objetivo é reunir as Startups do Brasil todo para juntos identificar oportunidades, necessidades e incentivos para este mercado, além de divulgar vagas e notícias.</p>
                    <p>Contamos com sua participação!</p>
                 <br>
             </div>
         </div><br>
-
-
 
       <!-- End Class After Column -->
       </div><br>
@@ -120,7 +118,7 @@ session_start();
     
       <div class="w3-container w3-white w3-margin-bottom">
         <div class="project-space-img">
-            <img src="../../img/about/cidadeConectada.jpg" style="width:100%">
+            <img src="../../img/about/cidadeConectada.jpg" style="width:104%">
         </div>
       </div>
 
