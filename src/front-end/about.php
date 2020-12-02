@@ -84,7 +84,7 @@ session_start();
         <!-- Head Line -->
         <div class="w3-white w3-text-grey" style="margin: 0 0 30px 0">
             <div class="w3-container">
-                <img class="w3-image about-align" src="../../img/minasValley/logos/minasValley05.png">
+                <br><img class="w3-image about-align" src="../../img/minasValley/logos/minasValley05.png">
                 <br>
             </div>
         </div>
