@@ -93,7 +93,7 @@ clip-rule:evenodd;
         </defs>
         <g id="Camada_x0020_1">
         <text x="4696.99" y="11438.67"  class="fil0 fnt0">MINAS VALLEY</text>
-        <rect class="fil1 str0" x="3702.26" y="8649.26" width="22294.42" height="3715.74"/>
+        <rect class="fil1 str0" x="3300.26" y="8649.26" width="22294.42" height="3715.74"/>
         </g>
         </svg>
     </div>
