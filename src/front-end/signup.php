@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="../../img/logo/favicon04.png">
+<link rel="shortcut icon" href="../../img/minasValley/logos/minasValleyFaviconNoFund.png">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -71,14 +71,14 @@
                 <p>Junte-se a nós nessa jornada</p>
 				<button class="ghost" id="signIn">Criar conta</button><br>
 				<p>Voltar a pagina inicial</p>
-				<a href="../../index.php"><img src="../../img/voltar.png" alt="Voltar"></a>
+				<a href="../../index.php"><img src="../../img/siteFeatures/goBack.png" alt="Voltar"></a>
 			</div>
 			<div class="overlay-panel overlay-right">
                 <h1>Ja é parceiro?</h1>
 				<p>Conecte-se com sua conta e desfrute de nosso site</p>
 				<button class="ghost" id="signUp">Logar</button>
 				<p>Voltar a pagina inicial</p>
-				<a href="../../index.php"><img src="../../img/voltar2.png" alt="Voltar"></a>
+				<a href="../../index.php"><img src="../../img/siteFeatures/goTo.png" alt="Voltar"></a>
 			</div>
 		</div>
 	</div>

@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\img",
+    "\\img\\minasValley",
+    "\\img\\minasValley\\logos",
     "\\src",
     "\\src\\front-end",
     "\\src\\styles"

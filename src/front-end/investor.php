@@ -4,7 +4,7 @@ session_start();
 
 <!DOCTYPE html>
 <html>
-<title>Projeto</title>
+<title>Investidor</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="../../img/minasValley/logos/minasValleyfaviconNoFund.png">
@@ -79,7 +79,7 @@ session_start();
   <!-- Page Container -->
 
   <div class="w3-text-grey w3-padding-16" id="projects">
-    <h1 class="w3-padding-16 category-align">Projetos<hr></h1>
+    <h1 class="w3-padding-16 category-align">Investidores<hr></h1>
   </div>
 
   <div class="w3-row-padding">

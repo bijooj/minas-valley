@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.index-tema2 {
+    text-align: center;
+    height: auto;
+}
+
 .index-tema3 {
     text-align: center;
     font: 20px arial, sans-serif;
@@ -36,4 +41,30 @@
     position: relative;
     top: 5px;
     box-shadow: none;
+}
+
+.animate-svg {
+    fill: transparent; /* #65bbf2 */
+    stroke: black;
+    stroke-dasharray: 2266;
+    stroke-dashoffset: 0;
+    animation: 5s desenha infinite alternate;
+}
+
+    .animate-svg svg {
+        stroke-width: 10px;
+        stroke: #ffffff;
+        stroke-dasharray: 100266;
+        stroke-dashoffset: 0;
+        animation: svganimation 10s ease-in-out forwards;
+    }
+
+@keyframes svganimation {
+    from {
+        stroke-dashoffset: 100266;
+    }
+    to {
+        stroke-dashoffset: 0;
+        fill: white;
+    }
 }
