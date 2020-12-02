@@ -6,7 +6,7 @@ https://minasvalley.herokuapp.com/
 
 Este projeto adota o seguinte gitflow:
 
-![Image of our GITFLOW](https://github.com/bijooj/minas-valley/blob/master/img/gitflow.PNG)
+![Image of our GITFLOW](https://github.com/bijooj/minas-valley/img/git/gitFlow.PNG)
 
 # Estrutura de Diretórios
 
