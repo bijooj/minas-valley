@@ -39,6 +39,22 @@ body, html {
   display: none;
 }
 
+@font-face { 
+font-family:"Montserrat";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)
+}
+
+.str0 {
+stroke:#FEFEFE;stroke-width:200;stroke-miterlimit:22.9256
+}
+
+.fil1 {
+fill:none
+}
+
+.fnt0 {
+font-weight:normal;font-size:2661.55px;font-family:'Montserrat'
+}
+
 </style>
 
 <header class="bgimg w3-display-container" style="height: 100px" id="home">
@@ -49,12 +65,11 @@ body, html {
         viewBox="0 0 29700 21000">
         <defs>
         <font id="FontID0" horiz-adv-x="716" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
-	    <font-face 
-		font-family="Montserrat">
-		<font-face-src>
-		<font-face-name name="Montserrat Regular"/>
-		</font-face-src>
-	    </font-face>
+	          <font-face font-family="Montserrat">
+	          	<font-face-src>
+		            <font-face-name name="Montserrat Regular"/>
+	          	</font-face-src>
+	          </font-face>
         <missing-glyph><path d="M0 0z"/></missing-glyph>
         <glyph unicode="A" horiz-adv-x="716" d="M553.001 187l-390.002 0 -83.9999 -187 -77.0002 0 320.002 699.998 72.9988 0 320.002 -699.998 -77.9997 0 -83.9999 187zm-26.9993 59.9989l-168.004 376.003 -168 -376.003 336.003 0z"/>
         <glyph unicode="E" horiz-adv-x="669" d="M608.999 64.0003l0 -64.0003 -494.997 0 0 699.998 479.998 0 0 -63.9965 -406 0 0 -249.002 362 0 0 -63.0009 -362 0 0 -259.999 420.999 0z"/>
@@ -66,14 +81,6 @@ body, html {
         <glyph unicode="V" horiz-adv-x="697" d="M696 699.998l-310 -699.998 -72.9988 0 -310.004 699.998 80.0023 0 267.998 -607.999 270.001 607.999 75.0014 0z"/>
         <glyph unicode="Y" horiz-adv-x="634" d="M354 242.002l0 -242.002 -72.9988 0 0 242.002 -280.002 457.996 78.9991 0 240.003 -392.997 239.999 392.997 73.9982 0 -279.998 -457.996z"/>
         </font>
-        <style type="text/css">
-        <![CDATA[
-        @font-face { font-family:"Montserrat";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
-        .str0 {stroke:#FEFEFE;stroke-width:200;stroke-miterlimit:22.9256}
-        .fil1 {fill:none}
-        .fnt0 {font-weight:normal;font-size:2661.55px;font-family:'Montserrat'}
-        ]]>
-        </style>
         </defs>
         <g id="Camada_x0020_1">
         <text x="4696.99" y="11438.67"  class="fil0 fnt0">MINAS VALLEY</text>
