@@ -3,18 +3,18 @@
 <title>Login</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="../../img/minasValley/logos/minasValleyFaviconNoFund.png">
+<link rel="stylesheet" type="text/css" href="../styles/signup.css">
+<link rel="stylesheet" type="text/css" href="../styles/general.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-<link rel="stylesheet" type="text/css" href="../styles/signup.css">
 
 <header>
 </header>
 
-<body>
+<body class="cannotSelect">
 
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
@@ -31,9 +31,9 @@
 	<div class="form-container sign-in-container">
 		<form action="../back-end/login.php" method="post">
 			<h1>Fazer login</h1>
-			<input type="text" name="nomelog" placeholder="Email / Usuario">
+			<br><input type="text" name="nomelog" placeholder="Email / Usuario">
 			<input type="password" name="senhalog" placeholder="Senha">
-			<button type="submit" name="logar">Logar</button>
+			<br><button type="submit" name="logar">Logar</button>
 			<?php 
 
 				if(isset($_GET["error"])){

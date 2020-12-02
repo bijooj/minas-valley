@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="/src/styles/index.css">
 <link rel="stylesheet" type="text/css" href="/src/styles/carousel.css">
 <link rel="stylesheet" type="text/css" href="/src/styles/typeWriter.css">
+<link rel="stylesheet" type="text/css" href="../styles/general.css">
 <link rel="shortcut icon" href="img/minasValley/logos/minasValleyFaviconNoFund.png">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
@@ -273,7 +274,7 @@ clip-rule:evenodd;
       <img src="img/investors/binance/logo.png" style="width:100%">
       <h3>Binance</h3>
       <p class="w3-opacity">Binance</p>
-      <p>A Binance é uma bolsa global de criptomoedas que fornece uma plataforma para a negociação de mais de 100 moedas criptográficas. Desde o início de 2018, a Binance é...</p>
+      <p class="cannotSelect">A Binance é uma bolsa global de criptomoedas que fornece uma plataforma para a negociação de mais de 100 moedas criptográficas. Desde o início de 2018, a Binance é...</p>
       <p><a href='src/front-end/investor.php' class="w3-button w3-light-grey w3-block">Saiba mais</a></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
