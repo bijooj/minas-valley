@@ -78,6 +78,7 @@ clip-rule:evenodd;
         <xml version="1.0" encoding="UTF-8">
         <svg id="svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="210mm" version="1.1" viewBox="0 0 29700 21000">
         <defs>
+        <font id="FontID0" horiz-adv-x="716" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
         <missing-glyph><path d="M0 0z"/></missing-glyph>
         <glyph unicode="A" horiz-adv-x="716" d="M553.001 187l-390.002 0 -83.9999 -187 -77.0002 0 320.002 699.998 72.9988 0 320.002 -699.998 -77.9997 0 -83.9999 187zm-26.9993 59.9989l-168.004 376.003 -168 -376.003 336.003 0z"/>
         <glyph unicode="E" horiz-adv-x="669" d="M608.999 64.0003l0 -64.0003 -494.997 0 0 699.998 479.998 0 0 -63.9965 -406 0 0 -249.002 362 0 0 -63.0009 -362 0 0 -259.999 420.999 0z"/>
