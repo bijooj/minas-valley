@@ -46,7 +46,7 @@ body, html {
     <div class="w3-display-middle w3-center animate-svg">
         <?xml version="1.0" encoding="UTF-8"?>
         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="210mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-        viewBox="0 0 29700 21000"
+        viewBox="0 0 29700 21000">
         <defs>
         <font id="FontID0" horiz-adv-x="716" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
 	    <font-face 
