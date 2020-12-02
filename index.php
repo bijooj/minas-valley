@@ -97,7 +97,7 @@ clip-rule:evenodd;
         </g>
         </svg>
     </div>
-    <div class="w3-display-middle w3-center" style="margin: 100px 0 0 0">
+    <div class="w3-display-middle w3-center" style="margin: 100px 0 0 -12px">
         <p class="typeWriter-body typeWriter-line typeWriter-typing-animation">“O maior risco é não assumir nenhum risco” – Mark Zuckerberg</p>
     </div>
 </header>
