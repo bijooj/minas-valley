@@ -7,7 +7,6 @@
 <title>Minas Valley</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="/src/styles/index.css">
 <link rel="stylesheet" type="text/css" href="/src/styles/carousel.css">
 <link rel="stylesheet" type="text/css" href="/src/styles/typeWriter.css">
@@ -40,19 +39,27 @@ body, html {
 }
 
 @font-face { 
-font-family:"Montserrat";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)
+font-family:"Montserrat";
+font-variant:normal;
+font-weight:normal;
+src:url("#FontID0") 
+format(svg);
 }
 
 .str0 {
-stroke:#FEFEFE;stroke-width:200;stroke-miterlimit:22.9256
+stroke:#FEFEFE;
+stroke-width:200;
+stroke-miterlimit:22.9256;
 }
 
 .fil1 {
-fill:none
+fill:none;
 }
 
 .fnt0 {
-font-weight:normal;font-size:2661.55px;font-family:'Montserrat'
+font-weight:normal;
+font-size:2661.55px;
+font-family:'Montserrat';
 }
 
 </style>
