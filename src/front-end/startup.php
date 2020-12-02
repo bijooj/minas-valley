@@ -14,7 +14,7 @@ session_start();
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="../styles/project.css">
+<link rel="stylesheet" type="text/css" href="../styles/startup.css">
 <link rel="stylesheet" type="text/css" href="../styles/evaluation.css">
 <link rel="stylesheet" type="text/css" href="../styles/favorite.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
