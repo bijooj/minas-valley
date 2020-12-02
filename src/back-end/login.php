@@ -5,7 +5,7 @@
         $nome = $_POST["nomelog"];
         $senha = $_POST["senhalog"];
 
-        require_once 'dbconexao.php';
+        require_once 'dbconnection.php';
         require_once 'functions.php';
 
         if(inputVazioLogin($nome, $senha) !== false){

@@ -8,7 +8,7 @@ if(isset($_POST["criar"])){
     $senha = $_POST["senha"];
     $senhaconf = $_POST["senhaconf"];   
 
-    require_once 'dbconexao.php';
+    require_once 'dbconnection.php';
     require_once 'functions.php';
 
     if(inputVazio($nome, $email, $usuario, $senha, $senhaconf) !== false){
