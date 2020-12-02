@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="/src/styles/index.css">
 <link rel="stylesheet" type="text/css" href="/src/styles/carousel.css">
 <link rel="stylesheet" type="text/css" href="/src/styles/typeWriter.css">
-<link rel="shortcut icon" href="img/minasValley/logos/minasValleyfaviconNoFund.png">
+<link rel="shortcut icon" href="img/minasValley/logos/minasValleyFaviconNoFund.png">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
