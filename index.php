@@ -121,9 +121,9 @@ clip-rule:evenodd;
           <li><a href="src/front-end/about.php">Sobre nós</a></li>
           <li><a href="src/front-end/category.php">Categorias</a></li>
         </ul>
-        <form class="navbar-form navbar-left" action="/action_page.php">
+        <form class="navbar-form navbar-left" action="pesquisar.php">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Pesquisar">
+            <input type="text" class="form-control" name="pesquisar" placeholder="Pesquisar">
             <div class="input-group-btn">
               <button class="btn btn-default" type="submit">
                 <a class="glyphicon glyphicon-search"></a>
