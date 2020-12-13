@@ -1,5 +1,19 @@
 <?php
 session_start();
+
+require_once '../back-end/dbconnection.php';
+
+$id = $_SESSION["usu_id"];
+
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT * FROM usuario WHERE usu_id = '".$id."';";
+$result = $conn->query($sql);
+
+?>
+
 ?>
 
 <!DOCTYPE html>
@@ -72,45 +86,42 @@ session_start();
   </nav>
 
 
-<!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <!-- The Grid -->
   <div class="w3-row-padding">
   
-    <!-- Left Column -->
     <div class="w3-third">
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="../../img/users/test/bruno.jpg" style="width:100%" alt="Avatar">
+          <img src="../../img/img_upload/<?php if($result->num_rows > 0){while($row = mysqli_fetch_assoc($result)){ echo $row['usu_img'];?>" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-white">
-            <h2>Zé Balero</h2>
+            <h2><?php echo $row['usu_nome'];?></h2>
           </div>
         </div>
         <div class="w3-container">
         <br>
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i>Vagabundo</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large"></i>Belo Horizinte, MG</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large"></i>dale@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large"></i>4002-8922</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i><?php echo $row['usu_profissao'];?></p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large"></i><?php echo $row['usu_cidade'];?>, <?php echo $row['usu_estado'];?></p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large"></i><?php echo $row['usu_email'];?></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large"></i><?php echo $row['usu_telefone'];?></p>
           <hr>
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right"></i>Linguas</b></p>
 
-          <p>Espanhol</p>
+          <p><?php echo $row['usu_lang1'];?></p>
           <div class="w3-light-grey">
-            <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: Intermediario</p>
+            <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: <?php echo $row['usu_lvl1'];?></p>
           </div>
 
-          <p>Ingles</p>
+          <p><?php echo $row['usu_lang2'];?></p>
           <div class="w3-light-grey">
-          <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: Intermediario</p>
+          <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: <?php echo $row['usu_lvl2'];?></p>
           </div>
           
-          <p>Japones</p>
+          <p><?php echo $row['usu_lang3'];?></p>
           <div class="w3-light-grey">
-           <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: Intermediario</p>
+           <p><i class="fa-fw w3-margin-right w3-large"></i>Nivel: <?php echo $row['usu_lvl3'];?></p>
           </div>
 
           <br>
@@ -120,63 +131,79 @@ session_start();
           </div>
           <br>
         </div>
+        <form action="register.php">
+          <div>
+          <p class="w3-large"><button class="w3-margin-right" type="submit">Atualizar dados de perfil</button></p>
+          </div>
+        </form>
+        <form action="language.php">
+          <div>
+          <p class="w3-large"><button class="w3-margin-right" type="submit">Atualizar dados de idioma</button></p>
+          </div>
+        </form>
+        <form action="register_work.php">
+          <div>
+          <p class="w3-large"><button class="w3-margin-right" type="submit">Atualizar dados de trabalho</button></p>
+          </div>
+        </form>
+        <form action="register_education.php">
+          <div>
+          <p class="w3-large"><button class="w3-margin-right" type="submit">Atualizar dados de educação</button></p>
+          </div>
+        </form>
       </div><br>
 
-    <!-- End Left Column -->
     </div>
 
-    <!-- Right Column -->
     <div class="w3-twothird">
     
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Experiência de trabalho</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Experiência de Trabalho</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-round">Atual</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b><?php echo $row['usu_cargo1'];?></b></h5>
+          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $row['usu_tempo1'];?></h6>
+          <p><?php echo $row['usu_descri1'];?></p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b><?php echo $row['usu_cargo2'];?></b></h5>
+          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $row['usu_tempo2'];?></h6>
+          <p><?php echo $row['usu_descri2'];?></p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p><br>
+          <h5 class="w3-opacity"><b><?php echo $row['usu_cargo3'];?></b></h5>
+          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $row['usu_tempo3'];?></h6>
+          <p><?php echo $row['usu_descri3'];?></p>
+          <hr>
         </div>
       </div>
 
       <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Education</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Curriculos Educacionais</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>cursosonline.com</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Lorem ipsum</p>
+          <h5 class="w3-opacity"><b><?php echo $row['usu_cargo4'];?></b></h5>
+          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $row['usu_tempo4'];?></h6>
+          <p><?php echo $row['usu_descri4'];?></p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>cursosonline2.com</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Lorem ipsum</p>
+          <h5 class="w3-opacity"><b><?php echo $row['usu_cargo5'];?></b></h5>
+          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $row['usu_tempo5'];?></h6>
+          <p><?php echo $row['usu_descri5'];?></p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>cursosonline3.com</b></h5>
-          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Lorem ipsum</p><br>
+          <h5 class="w3-opacity"><b><?php echo $row['usu_cargo6'];?></b></h5>
+          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $row['usu_tempo6'];}}?></h6>
+          <p><?php echo $row['usu_descri6'];?></p><br>
         </div>
       </div>
 
-    <!-- End Right Column -->
     </div>
     
-  <!-- End Grid -->
   </div>
   
-  <!-- End Page Container -->
 </div>
 
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
@@ -195,3 +222,7 @@ session_start();
 </html>
 
 <script src="../scripts/favorite.js"></script>
+
+<?php 
+$conn->close();
+?>

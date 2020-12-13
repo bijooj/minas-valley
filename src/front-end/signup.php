@@ -20,11 +20,11 @@
 	<div class="form-container sign-in-container">
 		<form action="../back-end/signup.php" method="post">
 			<h1>Criar conta</h1>
-			<input type="text" name="nome" placeholder="Nome">
-            <input type="email" name="email" placeholder="Email">
-            <input type="text" name="usuario" placeholder="Nome de usuario">
-            <input type="password" name="senha" placeholder="Senha">
-            <input type="password" name="senhaconf" placeholder="Confirma sua sennha">
+			<input type="text" name="nome" placeholder="Nome"><br>
+            <input type="email" name="email" placeholder="Email"><br>
+            <input type="text" name="usuario" placeholder="Nome de usuario"><br>
+            <input type="password" name="senha" placeholder="Senha"><br>
+            <input type="password" name="senhaconf" placeholder="Confirma sua sennha"><br>
 			<button type="submit" name="criar">Criar conta</button><br>
 			<?php 
 
@@ -57,8 +57,8 @@
 	<div class="form-container sign-up-container">
 		<form action="../back-end/login.php" method="post">
 			<h1>Fazer login</h1>
-			<input type="email" name="nome" placeholder="Email / Usuario">
-			<input type="password" name="senha" placeholder="Senha">
+			<input type="email" name="nome" placeholder="Email / Usuario"><br>
+			<input type="password" name="senha" placeholder="Senha"><br>
 			<button type="submit" name="logar">Logar</button>
 		</form>
 	</div>
