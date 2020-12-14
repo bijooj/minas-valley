@@ -4,7 +4,7 @@
         
         $cargo1 = $_POST['cargo1'];
         $desc1 = $_POST['desc1'];
-        $cargo2 = $_POST['cargo1'];
+        $cargo2 = $_POST['cargo2'];
         $desc2 = $_POST['desc2'];
         $cargo3 = $_POST['cargo3'];
         $desc3 = $_POST['desc3'];
